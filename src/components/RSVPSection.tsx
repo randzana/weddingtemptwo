@@ -93,13 +93,13 @@ export default function RSVPSection() {
           className="text-xs sm:text-sm tracking-[0.4em] uppercase text-gold-dark/50 mb-3"
           style={{ fontFamily: "var(--font-body)" }}
         >
-          Will You Join Us?
+          ئایا لەگەڵمان دەبیت؟
         </p>
         <h2
           className="text-4xl sm:text-5xl md:text-6xl text-charcoal font-light"
           style={{ fontFamily: "var(--font-display)" }}
         >
-          RSVP
+          وەڵامی بانگهێشت (RSVP)
         </h2>
         <div className="ornamental-divider !my-4">
           <span className="text-gold">✦</span>
@@ -108,7 +108,7 @@ export default function RSVPSection() {
           className="text-base sm:text-lg text-charcoal-light mt-4 max-w-lg mx-auto"
           style={{ fontFamily: "var(--font-elegant)", fontWeight: 300 }}
         >
-          Kindly respond by July 15, 2026
+          تکایە پێش ١٥ی تەممووزی ٢٠٢٦ وەڵام بدەرەوە
         </p>
       </div>
 
@@ -121,15 +121,15 @@ export default function RSVPSection() {
               className="text-2xl sm:text-3xl text-charcoal mb-4"
               style={{ fontFamily: "var(--font-display)" }}
             >
-              Thank You!
+              سوپاس!
             </h3>
             <p
               className="text-base text-charcoal-light leading-relaxed"
               style={{ fontFamily: "var(--font-elegant)", fontWeight: 400 }}
             >
-              We have received your RSVP and cannot wait to celebrate with you.
+              وەڵامەکەت پێگەیشت، بە پەرۆشەوە چاوەڕێی ئاهەنگگێڕانین لەگەڵتدا.
               <br />
-              See you in Marrakech! ✨
+              لە سلێمانی دەتبینین! ✨
             </p>
           </div>
         ) : (
@@ -145,7 +145,7 @@ export default function RSVPSection() {
                   className="block text-xs tracking-[0.15em] uppercase text-charcoal-light/70 mb-2"
                   style={{ fontFamily: "var(--font-body)" }}
                 >
-                  Full Name *
+                  ناوی تەواو *
                 </label>
                 <input
                   id="rsvp-name"
@@ -154,8 +154,8 @@ export default function RSVPSection() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="form-input"
-                  placeholder="Your full name"
+                  className="form-input text-start"
+                  placeholder="ناوی تەواوت بنووسە"
                 />
               </div>
               <div>
@@ -164,7 +164,7 @@ export default function RSVPSection() {
                   className="block text-xs tracking-[0.15em] uppercase text-charcoal-light/70 mb-2"
                   style={{ fontFamily: "var(--font-body)" }}
                 >
-                  Email Address *
+                  ناونیشانی ئیمەیڵ *
                 </label>
                 <input
                   id="rsvp-email"
@@ -173,7 +173,7 @@ export default function RSVPSection() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="form-input"
+                  className="form-input text-start"
                   placeholder="your@email.com"
                 />
               </div>
@@ -186,17 +186,17 @@ export default function RSVPSection() {
                   className="block text-xs tracking-[0.15em] uppercase text-charcoal-light/70 mb-2"
                   style={{ fontFamily: "var(--font-body)" }}
                 >
-                  Will you attend?
+                  ئایا بەشدار دەبیت؟
                 </label>
                 <select
                   id="rsvp-attending"
                   name="attending"
                   value={formData.attending}
                   onChange={handleChange}
-                  className="form-input"
+                  className="form-input text-start"
                 >
-                  <option value="yes">Joyfully Accept ♥</option>
-                  <option value="no">Regretfully Decline</option>
+                  <option value="yes">بە خۆشحاڵییەوە بەشدار دەبم ♥</option>
+                  <option value="no">بە داوای لێبوردنەوە ناتوانم بەشداربم</option>
                 </select>
               </div>
               <div>
@@ -205,18 +205,18 @@ export default function RSVPSection() {
                   className="block text-xs tracking-[0.15em] uppercase text-charcoal-light/70 mb-2"
                   style={{ fontFamily: "var(--font-body)" }}
                 >
-                  Number of Guests
+                  ژمارەی میوانەکان
                 </label>
                 <select
                   id="rsvp-guests"
                   name="guests"
                   value={formData.guests}
                   onChange={handleChange}
-                  className="form-input"
+                  className="form-input text-start"
                 >
                   {[1, 2, 3, 4, 5].map((n) => (
                     <option key={n} value={String(n)}>
-                      {n} {n === 1 ? "Guest" : "Guests"}
+                      {n} میوان
                     </option>
                   ))}
                 </select>
@@ -229,7 +229,7 @@ export default function RSVPSection() {
                 className="block text-xs tracking-[0.15em] uppercase text-charcoal-light/70 mb-2"
                 style={{ fontFamily: "var(--font-body)" }}
               >
-                Dietary Requirements
+                پێداویستی خۆراکی تایبەت
               </label>
               <input
                 id="rsvp-dietary"
@@ -237,8 +237,8 @@ export default function RSVPSection() {
                 name="dietary"
                 value={formData.dietary}
                 onChange={handleChange}
-                className="form-input"
-                placeholder="Any allergies or dietary needs"
+                className="form-input text-start"
+                placeholder="هەر هەستیارییەک یان پێداویستییەکی خۆراکی تایبەت"
               />
             </div>
 
@@ -248,7 +248,7 @@ export default function RSVPSection() {
                 className="block text-xs tracking-[0.15em] uppercase text-charcoal-light/70 mb-2"
                 style={{ fontFamily: "var(--font-body)" }}
               >
-                A Message for the Couple
+                پەیامێک بۆ هاوسەرەکان
               </label>
               <textarea
                 id="rsvp-message"
@@ -256,8 +256,8 @@ export default function RSVPSection() {
                 value={formData.message}
                 onChange={handleChange}
                 rows={4}
-                className="form-input resize-none"
-                placeholder="Share your wishes..."
+                className="form-input resize-none text-start"
+                placeholder="هیوای خۆت بنووسە..."
               />
             </div>
 
@@ -289,10 +289,10 @@ export default function RSVPSection() {
                         d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
                       />
                     </svg>
-                    Sending...
+                    دەنێردرێت...
                   </>
                 ) : (
-                  "Send RSVP"
+                  "ناردنی وەڵام"
                 )}
               </button>
             </div>

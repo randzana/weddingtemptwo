@@ -10,32 +10,32 @@ gsap.registerPlugin(ScrollTrigger);
 const photos = [
   {
     src: "/gallery/couple-sunset.png",
-    alt: "Couple at sunset in Marrakech riad",
+    alt: "هاوسەرەکان لە کاتی ئاوابوونی خۆر لە ڕیاز لە مەراکش",
     span: "md:col-span-2 md:row-span-2",
   },
   {
     src: "/gallery/garden-venue.png",
-    alt: "Beautiful Moroccan garden ceremony venue",
+    alt: "شوێنی ڕێوڕەسمی باخچەی جوانی مەغریبی",
     span: "",
   },
   {
     src: "/gallery/bouquet-detail.png",
-    alt: "Elegant bridal bouquet",
+    alt: "چەپکە گوڵی بووکی شیک",
     span: "",
   },
   {
     src: "/gallery/moroccan-arch.png",
-    alt: "Ornate Moroccan architectural arch",
+    alt: "کەوانەی تەلارسازی ڕازاوەی مەغریبی",
     span: "md:col-span-2",
   },
   {
     src: "/gallery/rings-detail.png",
-    alt: "Wedding rings on rose petals",
+    alt: "ئەڵقەی هاوسەرگیری لەسەر پەڕەی گوڵەباخ",
     span: "",
   },
   {
     src: "/gallery/venue-table.png",
-    alt: "Luxury reception table setting",
+    alt: "ڕێکخستنی مێزی پێشوازی لوکس",
     span: "",
   },
 ];
@@ -107,13 +107,13 @@ export default function Gallery() {
           className="text-xs sm:text-sm tracking-[0.4em] uppercase text-gold-dark/50 mb-3"
           style={{ fontFamily: "var(--font-body)" }}
         >
-          Moments to Cherish
+          ساتە بەنرخەکان
         </p>
         <h2
           className="text-4xl sm:text-5xl md:text-6xl text-charcoal font-light"
           style={{ fontFamily: "var(--font-display)" }}
         >
-          Our Gallery
+          پێشانگای ئێمە
         </h2>
         <div className="ornamental-divider !my-4">
           <span className="text-gold">✦</span>
@@ -158,12 +158,12 @@ export default function Gallery() {
           onClick={() => setLightbox(null)}
           role="dialog"
           aria-modal="true"
-          aria-label="Photo lightbox"
+          aria-label="پێشانگای وێنەکان"
         >
           <button
             className="absolute top-6 right-6 text-white/80 hover:text-white text-3xl z-10 transition-colors"
             onClick={() => setLightbox(null)}
-            aria-label="Close lightbox"
+            aria-label="داخستنی پێشانگا"
           >
             ✕
           </button>
@@ -185,7 +185,7 @@ export default function Gallery() {
                 e.stopPropagation();
                 setLightbox(lightbox - 1);
               }}
-              aria-label="Previous photo"
+              aria-label="وێنەی پێشوو"
             >
               ‹
             </button>
@@ -197,7 +197,7 @@ export default function Gallery() {
                 e.stopPropagation();
                 setLightbox(lightbox + 1);
               }}
-              aria-label="Next photo"
+              aria-label="وێنەی داهاتوو"
             >
               ›
             </button>

@@ -45,7 +45,7 @@ export default function Footer() {
             className="text-5xl sm:text-6xl text-shimmer"
             style={{ fontFamily: "var(--font-display)" }}
           >
-            I
+            D
           </span>
           <span
             className="text-3xl sm:text-4xl text-gold mx-2"
@@ -57,7 +57,7 @@ export default function Footer() {
             className="text-5xl sm:text-6xl text-shimmer"
             style={{ fontFamily: "var(--font-display)" }}
           >
-            M
+            K
           </span>
         </div>
 
@@ -65,13 +65,13 @@ export default function Footer() {
           className="text-lg sm:text-xl text-charcoal-light mb-2"
           style={{ fontFamily: "var(--font-elegant)", fontWeight: 300 }}
         >
-          &ldquo;Whatever our souls are made of, his and mine are the same.&rdquo;
+          &ldquo;گیانمان لە هەرچی دروستکرابێت، هی ئەو و هی من یەکن.&rdquo;
         </p>
         <p
           className="text-sm text-charcoal-light/50 mb-10"
           style={{ fontFamily: "var(--font-body)" }}
         >
-          — Emily Brontë
+          — ئێمیلی برۆنتی
         </p>
 
         <div className="ornamental-divider !my-6">
@@ -82,14 +82,14 @@ export default function Footer() {
           className="text-sm text-charcoal-light/60 tracking-wide"
           style={{ fontFamily: "var(--font-body)" }}
         >
-          August 15, 2026 · Marrakech, Morocco
+          ٩ی تەممووزی ٢٠٢٦ · سلێمانی
         </p>
 
         <p
           className="text-xs text-charcoal-light/40 mt-6 tracking-wide"
           style={{ fontFamily: "var(--font-body)" }}
         >
-          Made with ♥ for Imane & Mahdi
+          بە خۆشەویستییەوە ♥ دروستکراوە بۆ دییە و کاردۆ
         </p>
 
         {/* Floating hearts decoration */}

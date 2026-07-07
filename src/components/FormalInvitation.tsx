@@ -46,59 +46,66 @@ export default function FormalInvitation() {
         style={{ backgroundImage: "url('/invitation-bg.jpg')" }}
       >
         {/* Content container positioned precisely inside the template's gold arch */}
-        <div className="absolute inset-x-[10%] top-[16%] bottom-[16%] flex flex-col items-center justify-between z-10 text-center py-6">
-          {/* Bismillah Calligraphy */}
+        <div className="absolute inset-x-[8%] top-[15%] bottom-[15%] flex flex-col items-center justify-between z-10 text-center py-4">
+          {/* Bismillah & Quranic Verse */}
           <div className="w-full">
-            <h2 className="font-arabic text-2xl sm:text-3xl text-gold-dark font-medium select-none leading-relaxed tracking-wide">
+            <h3 className="font-arabic text-sm sm:text-base text-gold-dark font-medium select-none leading-none mb-1">
               بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+            </h3>
+            <h2 className="font-arabic text-[10px] sm:text-[12px] text-gold-dark font-medium select-none leading-relaxed tracking-normal max-w-[95%] mx-auto">
+              ﴿وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً﴾
             </h2>
 
             {/* Elegant Ornament Divider */}
-            <div className="flex items-center justify-center gap-3 my-2 sm:my-3">
+            <div className="flex items-center justify-center gap-3 my-1 sm:my-1.5">
               <div className="h-[1px] w-8 bg-gold/25" />
-              <span className="text-gold text-sm select-none">❦</span>
+              <span className="text-gold text-xs select-none">❦</span>
               <div className="h-[1px] w-8 bg-gold/25" />
             </div>
           </div>
 
-          {/* Invitation Text (Traditional Formal Arabic) */}
-          <div className="font-arabic text-charcoal flex flex-col gap-1 sm:gap-1.5 leading-relaxed text-xs sm:text-[15px] max-w-[90%] mx-auto">
-            <p className="text-gold-dark/95 font-medium tracking-wide text-[10px] sm:text-xs uppercase">
-              بمشيئة الله تعالى
+          {/* Invitation Text (Traditional Formal Kurdish Sorani) */}
+          <div className="font-arabic text-charcoal flex flex-col gap-1 sm:gap-1.5 leading-relaxed text-[10px] sm:text-xs max-w-[95%] mx-auto">
+            <p className="text-gold-dark/95 font-medium tracking-wide text-[10px] sm:text-[11px]">
+              بە ناوی خودای بەخشندە و میهرەبان،
             </p>
-            <p className="font-light">
-              تتشرف عائلاتنا بدعوتكم لحضور حفل زفاف
+            <p className="font-light text-[10px] sm:text-[11px] leading-normal">
+              بە ڕەزامەندی و فەرمانی خودای گەورە، دڵەکانمان بە پەیمانی هاوسەرگیری و عەشقێکی پاک ئاوێتەی یەکتر بوون.
             </p>
-            <p className="font-light">
-              ابنتنا المصونة
+
+            {/* Names */}
+            <div className="my-1 sm:my-1.5 flex flex-col items-center">
+              <h3 className="text-lg sm:text-xl text-gold-dark font-semibold select-none leading-none">
+                دییە
+              </h3>
+              <span className="text-[10px] sm:text-xs text-charcoal-light/60 my-0.5 leading-none">و</span>
+              <h3 className="text-lg sm:text-xl text-gold-dark font-semibold select-none leading-none">
+                کاردۆ
+              </h3>
+            </div>
+
+            <p className="font-light text-[10px] sm:text-[11px] leading-normal">
+              ئامادەبوونی ئێوەی بەڕێز و خۆشەویست لە مەراسیمی (دەستنیشانکردنی هاوسەرگیری و ئەڵقە گۆڕینەوەمان)، کاتەکانمان پڕ دەکات لە بەرەکەت و دڵخۆشی. بە شانازییەوە چاوەڕێی تەشریفهێنانتانین.
             </p>
-            <h3 className="text-xl sm:text-2xl text-gold-dark font-semibold select-none">
-              إيمان
-            </h3>
-            <p className="font-light text-charcoal/70">
-              بالسيد
+
+            <p className="font-light mt-1 text-[10px] sm:text-[11px]">
+              ئەمەش لە ڕۆژی پێنجشەممە <span className="font-semibold text-gold-dark">٩ی تەممووزی ٢٠٢٦</span>
             </p>
-            <h3 className="text-xl sm:text-2xl text-gold-dark font-semibold select-none">
-              المهدي
-            </h3>
-            <p className="font-light mt-1 text-xs sm:text-[14px]">
-              وذلك يوم السبت <span className="font-semibold text-gold-dark">15 غشت 2026</span>
-            </p>
-            <p className="font-light">
-              على الساعة الرابعة مساءً
+            <p className="font-light text-[10px] sm:text-[11px]">
+              لە کاتژمێر ٨ی شەو
             </p>
           </div>
 
-          {/* Venue Section in French/English Style matching Himmi Palace */}
-          <div className="w-full max-w-[280px] flex flex-col items-center pt-2 sm:pt-4 border-t border-gold/15">
-            <p className="font-arabic text-[9px] sm:text-[11px] text-charcoal-light/70 mb-0.5">
-              بقاعة
+          {/* Venue Section in Kurdish Sorani */}
+          <div className="w-full max-w-[280px] flex flex-col items-center pt-1.5 sm:pt-2.5 border-t border-gold/15">
+            <p className="font-arabic text-[9px] sm:text-[10px] text-charcoal-light/70 mb-0.5">
+              لە هۆڵی
             </p>
-            <h4 className="font-script text-2xl sm:text-3xl text-gold-dark leading-snug tracking-wide select-none">
-              La Mamounia & Royal Mansour
+            <h4 className="font-arabic text-base sm:text-lg text-gold-dark leading-snug tracking-wide select-none font-semibold">
+              هۆڵی ئاهەنگەکان
             </h4>
-            <p className="text-[8px] sm:text-[10px] tracking-[0.2em] text-charcoal-light/60 uppercase mt-0.5" style={{ fontFamily: "var(--font-body)" }}>
-              Marrakech, Morocco
+            <p className="text-[8px] sm:text-[9px] tracking-[0.2em] text-charcoal-light/60 uppercase mt-0.5" style={{ fontFamily: "var(--font-body)" }}>
+              سلێمانی
             </p>
           </div>
 

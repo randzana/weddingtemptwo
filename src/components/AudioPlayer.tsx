@@ -42,7 +42,7 @@ export default function AudioPlayer({ playTrigger }: AudioPlayerProps) {
     <>
       <audio
         ref={audioRef}
-        src="/weddiing.m4a"
+        src="/love.m4a"
         loop
         preload="auto"
       />
@@ -50,8 +50,8 @@ export default function AudioPlayer({ playTrigger }: AudioPlayerProps) {
       <button
         onClick={togglePlay}
         className="audio-player-btn"
-        aria-label={isPlaying ? "Pause music" : "Play music"}
-        title={isPlaying ? "Pause background music" : "Play background music"}
+        aria-label={isPlaying ? "وەستاندنی مۆسیقا" : "لێدانی مۆسیقا"}
+        title={isPlaying ? "وەستاندنی مۆسیقای باکگراوند" : "لێدانی مۆسیقای باکگراوند"}
       >
         {isPlaying ? (
           <svg viewBox="0 0 24 24">

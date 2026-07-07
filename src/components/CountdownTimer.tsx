@@ -13,7 +13,7 @@ interface TimeLeft {
   seconds: number;
 }
 
-const WEDDING_DATE = new Date("2026-08-15T16:00:00+01:00"); // Marrakech time (UTC+1)
+const WEDDING_DATE = new Date("2026-07-09T20:00:00+03:00"); // Sulaymaniyah time (UTC+3)
 
 function calculateTimeLeft(): TimeLeft {
   const now = new Date();
@@ -119,13 +119,13 @@ export default function CountdownTimer() {
           className="text-xs sm:text-sm tracking-[0.4em] uppercase text-gold-dark/50 mb-3"
           style={{ fontFamily: "var(--font-body)" }}
         >
-          Mark Your Calendar
+          ڕێکەوتەکە تۆمار بکە
         </p>
         <h2
           className="text-4xl sm:text-5xl md:text-6xl text-charcoal font-light"
           style={{ fontFamily: "var(--font-display)" }}
         >
-          Counting Down
+          ژماردنی پێچەوانە
         </h2>
         <div className="ornamental-divider !my-4">
           <span className="text-gold">✦</span>
@@ -134,7 +134,7 @@ export default function CountdownTimer() {
           className="text-lg sm:text-xl text-charcoal-light mt-4"
           style={{ fontFamily: "var(--font-elegant)", fontWeight: 300 }}
         >
-          Until we say &ldquo;I do&rdquo;
+          تا دەڵێین &ldquo;ڕازیم&rdquo;
         </p>
       </div>
 
@@ -143,21 +143,21 @@ export default function CountdownTimer() {
         ref={unitsRef}
         className="flex justify-center items-start gap-4 sm:gap-8 md:gap-12 px-6"
       >
-        <CountdownUnit value={timeLeft.days} label="Days" />
+        <CountdownUnit value={timeLeft.days} label="ڕۆژ" />
         <div
           className="text-2xl sm:text-3xl text-gold/40 mt-6 sm:mt-8 md:mt-10"
           style={{ fontFamily: "var(--font-display)" }}
         >
           :
         </div>
-        <CountdownUnit value={timeLeft.hours} label="Hours" />
+        <CountdownUnit value={timeLeft.hours} label="کاتژمێر" />
         <div
           className="text-2xl sm:text-3xl text-gold/40 mt-6 sm:mt-8 md:mt-10"
           style={{ fontFamily: "var(--font-display)" }}
         >
           :
         </div>
-        <CountdownUnit value={timeLeft.minutes} label="Minutes" />
+        <CountdownUnit value={timeLeft.minutes} label="خولەک" />
         <div
           className="text-2xl sm:text-3xl text-gold/40 mt-6 sm:mt-8 md:mt-10 hidden sm:block"
           style={{ fontFamily: "var(--font-display)" }}
@@ -165,7 +165,7 @@ export default function CountdownTimer() {
           :
         </div>
         <div className="hidden sm:block">
-          <CountdownUnit value={timeLeft.seconds} label="Seconds" />
+          <CountdownUnit value={timeLeft.seconds} label="چرکە" />
         </div>
       </div>
     </section>

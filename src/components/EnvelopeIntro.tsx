@@ -115,19 +115,19 @@ export default function EnvelopeIntro({ onComplete }: EnvelopeIntroProps) {
       <div className="absolute top-[12%] left-1/2 -translate-x-1/2 text-center z-10 sm:top-[15%]">
         <p
           className="text-sm tracking-[0.35em] uppercase text-gold-dark/70 mb-3"
-          style={{ fontFamily: "var(--font-body)" }}
+          style={{ fontFamily: "var(--font-doran)" }}
         >
-          You Are Invited
+          بانگهێشت کراون
         </p>
         <h1
           className="text-4xl sm:text-5xl md:text-6xl text-charcoal font-light leading-tight"
-          style={{ fontFamily: "var(--font-display)" }}
+          style={{ fontFamily: "var(--font-doran)" }}
         >
-          Imane{" "}
+          دییە{" "}
           <span className="text-shimmer text-3xl sm:text-4xl md:text-5xl italic">
-            &
+            و
           </span>{" "}
-          Mahdi
+          کاردۆ
         </h1>
       </div>
 
@@ -138,7 +138,7 @@ export default function EnvelopeIntro({ onComplete }: EnvelopeIntroProps) {
         onClick={handleOpen}
         role="button"
         tabIndex={0}
-        aria-label="Open wedding invitation"
+        aria-label="کردنەوەی بانگهێشتنامەی دەستنیشانکردن"
         onKeyDown={(e) => {
           if (e.key === "Enter" || e.key === " ") handleOpen();
         }}
@@ -154,27 +154,27 @@ export default function EnvelopeIntro({ onComplete }: EnvelopeIntroProps) {
           </div>
           <p
             className="text-[10px] sm:text-xs tracking-[0.25em] uppercase text-gold-dark/70 mb-0.5"
-            style={{ fontFamily: "var(--font-body)" }}
+            style={{ fontFamily: "var(--font-doran)" }}
           >
-            Save the Date
+            ڕێکەوتەکە تۆمار بکە
           </p>
           <h2
             className="text-xl sm:text-2xl text-charcoal mb-0.5"
-            style={{ fontFamily: "var(--font-display)" }}
+            style={{ fontFamily: "var(--font-doran)" }}
           >
-            Imane & Mahdi
+            دییە و کاردۆ
           </h2>
           <p
             className="text-xs sm:text-sm text-charcoal-light"
-            style={{ fontFamily: "var(--font-elegant)" }}
+            style={{ fontFamily: "var(--font-doran)" }}
           >
-            August 15, 2026
+            ٩ی تەممووزی ٢٠٢٦
           </p>
           <p
             className="text-[10px] sm:text-xs text-charcoal-light/70 mt-0.5"
-            style={{ fontFamily: "var(--font-elegant)" }}
+            style={{ fontFamily: "var(--font-doran)" }}
           >
-            Marrakech, Morocco
+            سلێمانی
           </p>
         </div>
 
@@ -222,9 +222,9 @@ export default function EnvelopeIntro({ onComplete }: EnvelopeIntroProps) {
       >
         <p
           className="text-sm tracking-[0.2em] text-gold-dark/60 pulse-gentle"
-          style={{ fontFamily: "var(--font-body)" }}
+          style={{ fontFamily: "var(--font-doran)" }}
         >
-          Tap to Open
+          کلیک بکە بۆ کردنەوە
         </p>
       </div>
     </div>

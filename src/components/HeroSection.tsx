@@ -72,7 +72,7 @@ export default function HeroSection() {
           className="text-[10px] sm:text-xs tracking-[0.35em] uppercase text-gold-dark/70 mb-3"
           style={{ fontFamily: "var(--font-body)" }}
         >
-          Together with their families
+          لەگەڵ خێزانەکانیاندا
         </p>
 
         <h1
@@ -80,13 +80,13 @@ export default function HeroSection() {
           className="mb-4 flex flex-col items-center justify-center leading-none"
         >
           <span className="block font-script text-7xl sm:text-8xl md:text-9xl text-charcoal select-none">
-            Imane
+            دییە
           </span>
           <span className="block font-script text-3xl sm:text-4xl md:text-5xl text-gold-dark my-1 select-none">
-            &
+            و
           </span>
           <span className="block font-script text-7xl sm:text-8xl md:text-9xl text-charcoal select-none">
-            Mahdi
+            کاردۆ
           </span>
         </h1>
 
@@ -97,20 +97,20 @@ export default function HeroSection() {
           className="text-base sm:text-lg md:text-xl text-charcoal-light tracking-wide font-light"
           style={{ fontFamily: "var(--font-elegant)" }}
         >
-          Saturday, August 15, 2026
+          پێنجشەممە، ٩ی تەممووزی ٢٠٢٦
         </p>
 
         <p
           className="mt-1 text-[10px] sm:text-xs text-charcoal-light/70 tracking-widest uppercase font-medium"
           style={{ fontFamily: "var(--font-body)" }}
         >
-          starting at 4:00 PM
+          دەستپێدەکات لە کاتژمێر ٨ی شەو
         </p>
         <p
           className="mt-1 text-[10px] sm:text-xs text-gold-dark/80 tracking-widest uppercase font-semibold"
           style={{ fontFamily: "var(--font-body)" }}
         >
-          Marrakech, Morocco
+          سلێمانی
         </p>
       </div>
 
@@ -123,7 +123,7 @@ export default function HeroSection() {
           className="text-[10px] tracking-[0.25em] uppercase text-gold-dark/40"
           style={{ fontFamily: "var(--font-body)" }}
         >
-          Scroll
+          بخشێنە
         </p>
         <div className="w-[1px] h-6 bg-gradient-to-b from-gold/40 to-transparent relative">
           <div

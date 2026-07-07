@@ -18,11 +18,12 @@
   --color-ivory: #fffff0;
   --color-parchment: #f5f0e6;
 
-  --font-display: "Playfair Display", serif;
-  --font-elegant: "Cormorant Garamond", serif;
-  --font-body: "Inter", sans-serif;
-  --font-script: var(--font-script), cursive;
-  --font-arabic: var(--font-arabic), serif;
+  --font-display: var(--font-doran), serif;
+  --font-elegant: var(--font-doran), serif;
+  --font-body: var(--font-doran), sans-serif;
+  --font-script: var(--font-doran), cursive;
+  --font-arabic: var(--font-doran), serif;
+  --font-doran: var(--font-doran), sans-serif;
 }
 
 /* ─── Global Base ─── */

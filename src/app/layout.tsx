@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Cormorant_Garamond, Inter, Alex_Brush, Amiri } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -36,14 +37,20 @@ const amiri = Amiri({
   weight: ["400", "700"],
 });
 
+const doran = localFont({
+  src: "../../public/fonts/Doran-Bold.otf",
+  variable: "--font-doran",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
-  title: "Imane & Mahdi — Wedding Invitation",
+  title: "دییە و کاردۆ — بانگهێشتنامەی دەستنیشانکردن",
   description:
-    "You are cordially invited to celebrate the union of Imane & Mahdi. Join us for a day filled with love, joy, and unforgettable memories.",
-  keywords: ["wedding", "invitation", "Imane", "Mahdi", "celebration"],
+    "شەرەفمەندین بە بانگهێشتکردنی ئێوە بۆ بەشداریکردن لە ئاهەنگی دەستنیشانکردنی دییە و کاردۆ. لەگەڵمان بن بۆ بەسەربردنی ڕۆژێکی پڕ لە خۆشەویستی، شادی، و یادگاری بیرنەچوونەوە.",
+  keywords: ["دەستنیشانکردن", "بانگهێشتنامە", "دییە", "کاردۆ", "ئاهەنگ"],
   openGraph: {
-    title: "Imane & Mahdi — Wedding Invitation",
-    description: "Celebrate love with Imane & Mahdi",
+    title: "دییە و کاردۆ — بانگهێشتنامەی دەستنیشانکردن",
+    description: "خۆشەویستی لەگەڵ دییە و کاردۆ بەرز ڕابگرە",
     type: "website",
   },
 };
@@ -55,8 +62,9 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
-      className={`${playfair.variable} ${cormorant.variable} ${inter.variable} ${alexBrush.variable} ${amiri.variable} antialiased`}
+      lang="ckb"
+      dir="rtl"
+      className={`${playfair.variable} ${cormorant.variable} ${inter.variable} ${alexBrush.variable} ${amiri.variable} ${doran.variable} antialiased`}
     >
       <body className="min-h-screen">{children}</body>
     </html>

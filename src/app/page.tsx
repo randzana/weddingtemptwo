@@ -17,13 +17,7 @@ const FormalInvitation = dynamic(() => import("@/components/FormalInvitation"), 
 const VenueLocation = dynamic(() => import("@/components/VenueLocation"), {
   ssr: false,
 });
-const Gallery = dynamic(() => import("@/components/Gallery"), {
-  ssr: false,
-});
 const CountdownTimer = dynamic(() => import("@/components/CountdownTimer"), {
-  ssr: false,
-});
-const RSVPSection = dynamic(() => import("@/components/RSVPSection"), {
   ssr: false,
 });
 const Footer = dynamic(() => import("@/components/Footer"), {
@@ -52,9 +46,7 @@ export default function Home() {
               <HeroSection />
               <FormalInvitation />
               <VenueLocation />
-              <Gallery />
               <CountdownTimer />
-              <RSVPSection />
               <Footer />
             </main>
           </SmoothScroll>

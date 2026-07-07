@@ -75,13 +75,13 @@ export default function VenueLocation() {
           className="text-xs sm:text-sm tracking-[0.4em] uppercase text-gold-dark/60 mb-3"
           style={{ fontFamily: "var(--font-body)" }}
         >
-          The Destination
+          شوێنی مەبەست
         </p>
         <h2
           className="text-4xl sm:text-5xl md:text-6xl text-charcoal font-light"
           style={{ fontFamily: "var(--font-display)" }}
         >
-          Location & Venues
+          شوێن و هۆڵەکان
         </h2>
         <div className="ornamental-divider !my-4">
           <span className="text-gold">✦</span>
@@ -105,47 +105,19 @@ export default function VenueLocation() {
                     className="text-xl sm:text-2xl text-charcoal font-medium mb-1"
                     style={{ fontFamily: "var(--font-display)" }}
                   >
-                    The Ceremony
+                    ڕێوڕەسمی دەستنیشانکردن
                   </h3>
                   <p
                     className="text-xs sm:text-sm text-gold-dark font-semibold tracking-wide"
                     style={{ fontFamily: "var(--font-elegant)" }}
                   >
-                    4:00 PM — La Mamounia Gardens
+                    ٨:٠٠ی شەو — هۆڵی ئاهەنگەکان
                   </p>
                   <p className="text-xs text-charcoal-light/75 mt-1 leading-relaxed">
-                    Avenue Bab Jdid, Marrakech, Morocco
+                    سلێمانی
                   </p>
-                  <p className="text-xs text-charcoal-light mt-2 leading-relaxed">
-                    Join us as we exchange vows under olive trees and desert flora in the historic gardens.
-                  </p>
-                </div>
-              </div>
-
-              {/* Divider */}
-              <div className="h-[1px] w-full bg-gold/15" />
-
-              {/* Reception Venue */}
-              <div className="flex gap-4">
-                <span className="text-2xl text-gold-dark select-none mt-1">🥂</span>
-                <div>
-                  <h3
-                    className="text-xl sm:text-2xl text-charcoal font-medium mb-1"
-                    style={{ fontFamily: "var(--font-display)" }}
-                  >
-                    The Reception
-                  </h3>
-                  <p
-                    className="text-xs sm:text-sm text-gold-dark font-semibold tracking-wide"
-                    style={{ fontFamily: "var(--font-elegant)" }}
-                  >
-                    7:00 PM — Royal Mansour Ballroom
-                  </p>
-                  <p className="text-xs text-charcoal-light/75 mt-1 leading-relaxed">
-                    Rue Abou Abbas El Sebti, Marrakech, Morocco
-                  </p>
-                  <p className="text-xs text-charcoal-light mt-2 leading-relaxed">
-                    A grand Moroccan feast, music, and celebration beneath zellige plasterwork and crystal light displays.
+                  <p className="text-xs text-charcoal-light mt-2 leading-relaxed font-light">
+                    خۆشحاڵ دەبین بە ئامادەبوون و بەشداریکردنتان لە ئاهەنگەکەماندا.
                   </p>
                 </div>
               </div>
@@ -154,13 +126,13 @@ export default function VenueLocation() {
             {/* Directions Action Button */}
             <div className="mt-8 relative z-10 flex justify-center">
               <a
-                href="https://www.google.com/maps/dir/?api=1&destination=La+Mamounia+Marrakech+Morocco"
+                href="https://maps.app.goo.gl/YgEG5nmV1Ya95hrK8"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-gradient-to-r from-gold-dark to-gold text-white font-medium text-xs uppercase tracking-widest hover:scale-105 active:scale-95 transition-transform duration-300 shadow-md hover:shadow-lg"
                 style={{ fontFamily: "var(--font-body)" }}
               >
-                <span>Get Directions</span>
+                <span>نەخشە و ڕێگا</span>
                 <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
                   <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                 </svg>
@@ -173,12 +145,12 @@ export default function VenueLocation() {
         <div ref={mapCardRef} className="lg:col-span-7">
           <div className="glass-card p-3 h-full flex flex-col border border-gold/15 shadow-[0_10px_30px_rgba(160,125,46,0.04)] overflow-hidden rounded-xl bg-white/70 min-h-[350px] lg:min-h-0">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6794.7562306716075!2d-8.0066!3d31.6212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0f80ced7a00001%3A0xe543df31ea54041b!2sLa%20Mamounia!5e0!3m2!1sen!2sma!4v1719260000000!5m2!1sen!2sma"
+              src="https://maps.google.com/maps?q=35.6026944,45.4268056&z=15&output=embed"
               className="w-full h-full flex-1 rounded-lg border-0 min-h-[350px] opacity-90 hover:opacity-100 transition-opacity duration-300"
               allowFullScreen={false}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Interactive Map of Marrakech Venues"
+              title="نەخشەی کارلێککاری سلێمانی"
             />
           </div>
         </div>
