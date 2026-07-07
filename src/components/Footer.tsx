@@ -63,13 +63,13 @@ export default function Footer() {
 
         <p
           className="text-lg sm:text-xl text-charcoal-light mb-2"
-          style={{ fontFamily: "var(--font-elegant)", fontWeight: 300 }}
+          style={{ fontFamily: "var(--font-doran)" }}
         >
           &ldquo;گیانمان لە هەرچی دروستکرابێت، هی ئەو و هی من یەکن.&rdquo;
         </p>
         <p
           className="text-sm text-charcoal-light/50 mb-10"
-          style={{ fontFamily: "var(--font-body)" }}
+          style={{ fontFamily: "var(--font-doran)" }}
         >
           — ئێمیلی برۆنتی
         </p>
@@ -80,14 +80,14 @@ export default function Footer() {
 
         <p
           className="text-sm text-charcoal-light/60 tracking-wide"
-          style={{ fontFamily: "var(--font-body)" }}
+          style={{ fontFamily: "var(--font-doran)" }}
         >
           ٩ی تەممووزی ٢٠٢٦ · سلێمانی
         </p>
 
         <p
           className="text-xs text-charcoal-light/40 mt-6 tracking-wide"
-          style={{ fontFamily: "var(--font-body)" }}
+          style={{ fontFamily: "var(--font-doran)" }}
         >
           بە خۆشەویستییەوە ♥ دروستکراوە بۆ دییە و کاردۆ
         </p>
