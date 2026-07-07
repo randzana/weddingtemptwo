@@ -125,7 +125,7 @@ export default function CountdownTimer() {
           className="text-4xl sm:text-5xl md:text-6xl text-charcoal font-light"
           style={{ fontFamily: "var(--font-display)" }}
         >
-          ژماردنی پێچەوانە
+          کاتی ماوە بۆ دەستپێکردن
         </h2>
         <div className="ornamental-divider !my-4">
           <span className="text-gold">✦</span>
