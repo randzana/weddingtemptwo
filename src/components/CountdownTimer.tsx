@@ -119,7 +119,7 @@ export default function CountdownTimer() {
           className="text-xs sm:text-sm tracking-[0.4em] uppercase text-gold-dark/50 mb-3"
           style={{ fontFamily: "var(--font-doran)" }}
         >
-          ڕێکەوتەکە تۆمار بکە
+          بانگهێشتنامەی تایبەت
         </p>
         <h2
           className="text-4xl sm:text-5xl md:text-6xl text-charcoal font-light"

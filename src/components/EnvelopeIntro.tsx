@@ -196,7 +196,7 @@ export default function EnvelopeIntro({ onComplete }: EnvelopeIntroProps) {
             className="text-[10px] sm:text-xs tracking-[0.25em] uppercase text-gold-dark/70 mb-0.5"
             style={{ fontFamily: "var(--font-doran)" }}
           >
-            ڕێکەوتەکە تۆمار بکە
+            بانگهێشتنامەی تایبەت
           </p>
           <h2
             className="text-xl sm:text-2xl text-charcoal mb-0.5 font-semibold"
