@@ -29,6 +29,11 @@
 /* ─── Global Base ─── */
 html {
   scroll-behavior: auto; /* Lenis handles smooth scrolling */
+  --font-display: var(--font-doran), serif;
+  --font-elegant: var(--font-doran), serif;
+  --font-body: var(--font-doran), sans-serif;
+  --font-script: var(--font-doran), cursive;
+  --font-arabic: var(--font-doran), serif;
 }
 
 body {

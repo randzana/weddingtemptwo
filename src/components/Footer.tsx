@@ -62,16 +62,10 @@ export default function Footer() {
         </div>
 
         <p
-          className="text-lg sm:text-xl text-charcoal-light mb-2"
+          className="text-lg sm:text-xl text-charcoal-light mb-10"
           style={{ fontFamily: "var(--font-doran)" }}
         >
-          &ldquo;گیانمان لە هەرچی دروستکرابێت، هی ئەو و هی من یەکن.&rdquo;
-        </p>
-        <p
-          className="text-sm text-charcoal-light/50 mb-10"
-          style={{ fontFamily: "var(--font-doran)" }}
-        >
-          — ئێمیلی برۆنتی
+          &ldquo;خـۆزگـە دڵـێـکـی تـریـشـم هـەبـایـە یـەک دڵ بـەس نـیـە بـۆ خـۆشـویـسـتـنـی تـۆ&rdquo;
         </p>
 
         <div className="ornamental-divider !my-6">

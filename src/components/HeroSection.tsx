@@ -67,7 +67,7 @@ export default function HeroSection() {
       }}
     >
       {/* Main content container with top/bottom padding to avoid overlapping chandelier/palace */}
-      <div className="relative z-10 text-center px-6 max-w-xl mx-auto flex flex-col items-center justify-center pt-[22vh] pb-[24vh] sm:pt-[24vh] sm:pb-[26vh] h-full">
+      <div className="relative z-10 text-center px-6 max-w-xl mx-auto flex flex-col items-center justify-center pt-[14vh] pb-[32vh] sm:pt-[16vh] sm:pb-[34vh] h-full">
         <p
           className="text-[10px] sm:text-xs tracking-[0.35em] uppercase text-gold-dark/70 mb-3"
           style={{ fontFamily: "var(--font-body)" }}

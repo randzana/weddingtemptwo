@@ -111,7 +111,7 @@ export default function VenueLocation() {
                     className="text-xs sm:text-sm text-gold-dark font-semibold tracking-wide"
                     style={{ fontFamily: "var(--font-doran)" }}
                   >
-                    ٨:٠٠ی شەو — هۆڵی ئاهەنگەکان
+                    ٨:٠٠ی شەو — ماڵی بووک
                   </p>
                   <p className="text-xs text-charcoal-light/75 mt-1 leading-relaxed">
                     سلێمانی
