@@ -151,14 +151,25 @@ export default function EnvelopeIntro({ onComplete }: EnvelopeIntroProps) {
           className="text-sm tracking-[0.35em] uppercase text-gold-dark/70 mb-3"
           style={{ fontFamily: "var(--font-doran)" }}
         >
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           بانگهێشت کراون
         </p>
         <h1
-          className="text-4xl sm:text-5xl md:text-6xl text-charcoal font-light leading-tight"
-          style={{ fontFamily: "var(--font-doran)" }}
+          className="text-4xl sm:text-5xl md:text-6xl font-semibold leading-tight"
+          style={{ fontFamily: "var(--font-doran)", color: "#991b1b" }}
         >
           دییە{" "}
-          <span className="text-shimmer text-3xl sm:text-4xl md:text-5xl italic">
+          <span className="text-3xl sm:text-4xl md:text-5xl italic" style={{ color: "#c9a84c" }}>
             و
           </span>{" "}
           کاردۆ
@@ -197,8 +208,8 @@ export default function EnvelopeIntro({ onComplete }: EnvelopeIntroProps) {
             بانگهێشتنامەی تایبەت
           </p>
           <h2
-            className="text-xl sm:text-2xl text-charcoal mb-0.5 font-semibold"
-            style={{ fontFamily: "var(--font-doran)" }}
+            className="text-xl sm:text-2xl mb-0.5 font-semibold"
+            style={{ fontFamily: "var(--font-doran)", color: "#991b1b" }}
           >
             دییە و کاردۆ
           </h2>
