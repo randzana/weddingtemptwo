@@ -49,11 +49,14 @@ export default function FormalInvitation() {
         <div className="absolute inset-x-[8%] top-[15%] bottom-[15%] flex flex-col items-center justify-between z-10 text-center py-4">
           {/* Bismillah & Quranic Verse */}
           <div className="w-full">
+            <br />
             <h3 className="font-arabic text-sm sm:text-base text-gold-dark font-medium select-none leading-none mb-1">
               بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
             </h3>
+            <br />
+
             <h2 className="font-arabic text-[10px] sm:text-[12px] text-gold-dark font-medium select-none leading-relaxed tracking-normal max-w-[95%] mx-auto">
-              ﴿وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً﴾
+              ﴿وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا <br />إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً﴾
             </h2>
 
             {/* Elegant Ornament Divider */}
@@ -70,7 +73,8 @@ export default function FormalInvitation() {
               بە ناوی خودای بەخشندە و میهرەبان،
             </p>
             <p className="font-light text-[10px] sm:text-[11px] leading-normal">
-              بە ڕەزامەندی و فەرمانی خودای گەورە، دڵەکانمان بە پەیمانی هاوسەرگیری و عەشقێکی پاک ئاوێتەی یەکتر بوون.
+              بە ڕەزامەندی و فەرمانی خودای گەورە، دڵەکانمان بە پەیمانی
+              <br /> هاوسەرگیری و عەشقێکی پاک ئاوێتەی یەکتر بوون.
             </p>
 
             {/* Names */}
@@ -85,7 +89,7 @@ export default function FormalInvitation() {
             </div>
 
             <p className="font-light text-[10px] sm:text-[11px] leading-normal">
-              ئامادەبوونی ئێوەی بەڕێز و خۆشەویست لە مەراسیمی (دەستنیشانکردنی هاوسەرگیری و ئەڵقە گۆڕینەوەمان)، کاتەکانمان پڕ دەکات لە بەرەکەت و دڵخۆشی. بە شانازییەوە چاوەڕێی تەشریفهێنانتانین.
+              ئامادەبوونی ئێوەی بەڕێز و خۆشەویست لە مەراسیمی <br />(دەستنیشانکردنی هاوسەرگیری و ئەڵقە گۆڕینەوەمان)،<br /> کاتەکانمان پڕ دەکات لە بەرەکەت و دڵخۆشی. بە شانازییەوە<br /> چاوەڕێی تەشریفهێنانتانین.
             </p>
 
             <p className="font-light mt-1 text-[10px] sm:text-[11px]">
@@ -98,15 +102,8 @@ export default function FormalInvitation() {
 
           {/* Venue Section in Kurdish Sorani */}
           <div className="w-full max-w-[280px] flex flex-col items-center pt-1.5 sm:pt-2.5 border-t border-gold/15">
-            <p className="font-arabic text-[9px] sm:text-[10px] text-charcoal-light/70 mb-0.5">
-              لە هۆڵی
-            </p>
-            <h4 className="font-arabic text-base sm:text-lg text-gold-dark leading-snug tracking-wide select-none font-semibold">
-              هۆڵی ئاهەنگەکان
-            </h4>
-            <p className="text-[8px] sm:text-[9px] tracking-[0.2em] text-charcoal-light/60 uppercase mt-0.5" style={{ fontFamily: "var(--font-body)" }}>
-              سلێمانی
-            </p>
+
+
           </div>
 
           {/* Bottom Ornament */}

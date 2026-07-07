@@ -81,7 +81,7 @@ export default function VenueLocation() {
           className="text-4xl sm:text-5xl md:text-6xl text-charcoal font-light"
           style={{ fontFamily: "var(--font-display)" }}
         >
-          شوێن و هۆڵەکان
+          شوێن
         </h2>
         <div className="ornamental-divider !my-4">
           <span className="text-gold">✦</span>
