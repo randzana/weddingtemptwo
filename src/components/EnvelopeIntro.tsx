@@ -148,8 +148,8 @@ export default function EnvelopeIntro({ onComplete }: EnvelopeIntroProps) {
       {/* Decorative text above envelope */}
       <div className="absolute top-[12%] left-1/2 -translate-x-1/2 text-center z-10 sm:top-[15%]">
         <p
-          className="text-sm tracking-[0.35em] uppercase text-gold-dark/70 mb-3"
-          style={{ fontFamily: "var(--font-doran)" }}
+          className="text-sm tracking-[0.35em] uppercase mb-3"
+          style={{ fontFamily: "var(--font-doran)", color: "#ffffff" }}
         >
           <br />
           <br />
@@ -169,7 +169,7 @@ export default function EnvelopeIntro({ onComplete }: EnvelopeIntroProps) {
           style={{ fontFamily: "var(--font-doran)", color: "#991b1b" }}
         >
           دییە{" "}
-          <span className="text-3xl sm:text-4xl md:text-5xl italic" style={{ color: "#c9a84c" }}>
+          <span className="text-3xl sm:text-4xl md:text-5xl italic" style={{ color: "#ffffff" }}>
             و
           </span>{" "}
           کاردۆ
