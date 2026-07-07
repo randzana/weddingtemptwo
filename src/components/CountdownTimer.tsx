@@ -43,14 +43,14 @@ function CountdownUnit({
       <div className="glass-card countdown-ring w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 flex items-center justify-center mb-3">
         <span
           className="text-3xl sm:text-4xl md:text-5xl text-gold-dark tabular-nums"
-          style={{ fontFamily: "var(--font-display)" }}
+          style={{ fontFamily: "var(--font-doran)" }}
         >
           {String(value).padStart(2, "0")}
         </span>
       </div>
       <span
         className="text-xs sm:text-sm tracking-[0.2em] uppercase text-charcoal-light/60"
-        style={{ fontFamily: "var(--font-body)" }}
+        style={{ fontFamily: "var(--font-doran)" }}
       >
         {label}
       </span>
@@ -117,25 +117,20 @@ export default function CountdownTimer() {
       <div ref={titleRef} className="text-center mb-12 sm:mb-16 px-6">
         <p
           className="text-xs sm:text-sm tracking-[0.4em] uppercase text-gold-dark/50 mb-3"
-          style={{ fontFamily: "var(--font-body)" }}
+          style={{ fontFamily: "var(--font-doran)" }}
         >
           ڕێکەوتەکە تۆمار بکە
         </p>
         <h2
           className="text-4xl sm:text-5xl md:text-6xl text-charcoal font-light"
-          style={{ fontFamily: "var(--font-display)" }}
+          style={{ fontFamily: "var(--font-doran)" }}
         >
           کاتی ماوە بۆ دەستپێکردن
         </h2>
         <div className="ornamental-divider !my-4">
           <span className="text-gold">✦</span>
         </div>
-        <p
-          className="text-lg sm:text-xl text-charcoal-light mt-4"
-          style={{ fontFamily: "var(--font-elegant)", fontWeight: 300 }}
-        >
-          تا دەڵێین &ldquo;ڕازیم&rdquo;
-        </p>
+
       </div>
 
       {/* Countdown Units */}
@@ -146,21 +141,21 @@ export default function CountdownTimer() {
         <CountdownUnit value={timeLeft.days} label="ڕۆژ" />
         <div
           className="text-2xl sm:text-3xl text-gold/40 mt-6 sm:mt-8 md:mt-10"
-          style={{ fontFamily: "var(--font-display)" }}
+          style={{ fontFamily: "var(--font-doran)" }}
         >
           :
         </div>
         <CountdownUnit value={timeLeft.hours} label="کاتژمێر" />
         <div
           className="text-2xl sm:text-3xl text-gold/40 mt-6 sm:mt-8 md:mt-10"
-          style={{ fontFamily: "var(--font-display)" }}
+          style={{ fontFamily: "var(--font-doran)" }}
         >
           :
         </div>
         <CountdownUnit value={timeLeft.minutes} label="خولەک" />
         <div
           className="text-2xl sm:text-3xl text-gold/40 mt-6 sm:mt-8 md:mt-10 hidden sm:block"
-          style={{ fontFamily: "var(--font-display)" }}
+          style={{ fontFamily: "var(--font-doran)" }}
         >
           :
         </div>

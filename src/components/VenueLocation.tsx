@@ -73,13 +73,13 @@ export default function VenueLocation() {
       <div ref={headerRef} className="text-center mb-16 sm:mb-20 px-6">
         <p
           className="text-xs sm:text-sm tracking-[0.4em] uppercase text-gold-dark/60 mb-3"
-          style={{ fontFamily: "var(--font-body)" }}
+          style={{ fontFamily: "var(--font-doran)" }}
         >
           شوێنی مەبەست
         </p>
         <h2
           className="text-4xl sm:text-5xl md:text-6xl text-charcoal font-light"
-          style={{ fontFamily: "var(--font-display)" }}
+          style={{ fontFamily: "var(--font-doran)" }}
         >
           شوێن
         </h2>
@@ -103,13 +103,13 @@ export default function VenueLocation() {
                 <div>
                   <h3
                     className="text-xl sm:text-2xl text-charcoal font-medium mb-1"
-                    style={{ fontFamily: "var(--font-display)" }}
+                    style={{ fontFamily: "var(--font-doran)" }}
                   >
                     ڕێوڕەسمی دەستنیشانکردن
                   </h3>
                   <p
                     className="text-xs sm:text-sm text-gold-dark font-semibold tracking-wide"
-                    style={{ fontFamily: "var(--font-elegant)" }}
+                    style={{ fontFamily: "var(--font-doran)" }}
                   >
                     ٨:٠٠ی شەو — هۆڵی ئاهەنگەکان
                   </p>
@@ -130,7 +130,7 @@ export default function VenueLocation() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-gradient-to-r from-gold-dark to-gold text-white font-medium text-xs uppercase tracking-widest hover:scale-105 active:scale-95 transition-transform duration-300 shadow-md hover:shadow-lg"
-                style={{ fontFamily: "var(--font-body)" }}
+                style={{ fontFamily: "var(--font-doran)" }}
               >
                 <span>نەخشە و ڕێگا</span>
                 <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
