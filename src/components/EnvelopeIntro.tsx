@@ -149,7 +149,7 @@ export default function EnvelopeIntro({ onComplete }: EnvelopeIntroProps) {
       <div className="absolute top-[12%] left-1/2 -translate-x-1/2 text-center z-10 sm:top-[15%]">
         <p
           className="text-sm tracking-[0.35em] uppercase mb-3"
-          style={{ fontFamily: "var(--font-doran)", color: "#ffffff", textShadow: "0 2px 4px rgba(0,0,0,0.5)" }}
+          style={{ fontFamily: "var(--font-doran)", color: "#fdfaf2", textShadow: "0 2px 4px rgba(0,0,0,0.5)" }}
         >
           <br />
           <br />
@@ -169,7 +169,7 @@ export default function EnvelopeIntro({ onComplete }: EnvelopeIntroProps) {
           style={{ fontFamily: "var(--font-doran)", color: "#991b1b", textShadow: "0 2px 4px rgba(0,0,0,0.3)" }}
         >
           دییە{" "}
-          <span className="text-3xl sm:text-4xl md:text-5xl italic" style={{ color: "#ffffff", textShadow: "0 2px 4px rgba(0,0,0,0.5)" }}>
+          <span className="text-3xl sm:text-4xl md:text-5xl italic" style={{ color: "#fdfaf2", textShadow: "0 2px 4px rgba(0,0,0,0.5)" }}>
             و
           </span>{" "}
           کاردۆ
@@ -275,14 +275,14 @@ export default function EnvelopeIntro({ onComplete }: EnvelopeIntroProps) {
         {!isOpen ? (
           <p
             className="text-sm tracking-[0.2em] pulse-gentle"
-            style={{ fontFamily: "var(--font-doran)", color: "#ffffff", textShadow: "0 2px 4px rgba(0,0,0,0.6)" }}
+            style={{ fontFamily: "var(--font-doran)", color: "#fdfaf2", textShadow: "0 2px 4px rgba(0,0,0,0.6)" }}
           >
             کلیک بکە بۆ کردنەوە
           </p>
         ) : (
           <p
             className="text-sm tracking-[0.2em] font-medium pulse-gentle"
-            style={{ fontFamily: "var(--font-doran)", color: "#ffffff", textShadow: "0 2px 4px rgba(0,0,0,0.6)" }}
+            style={{ fontFamily: "var(--font-doran)", color: "#fdfaf2", textShadow: "0 2px 4px rgba(0,0,0,0.6)" }}
           >
             کلیک بکە بۆ چوونە ژوورەوە
           </p>
