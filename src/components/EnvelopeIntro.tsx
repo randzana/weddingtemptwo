@@ -189,9 +189,7 @@ export default function EnvelopeIntro({ onComplete }: EnvelopeIntroProps) {
         {/* Letter Card (sits inside the envelope) */}
         <div ref={letterRef} className="letter-card">
           {/* Gold Seal Header Emblem */}
-          <div className="w-10 h-10 sm:w-12 sm:h-12 mb-1.5 rounded-full overflow-hidden border border-gold/30 shadow-[0_2px_8px_rgba(201,168,76,0.15)] relative flex items-center justify-center bg-white/80">
-            <img src="/wax-seal.png" alt="Royal Seal" className="w-full h-full object-cover scale-105" />
-          </div>
+
           <p
             className="text-[10px] sm:text-xs tracking-[0.25em] uppercase text-gold-dark/70 mb-0.5"
             style={{ fontFamily: "var(--font-doran)" }}
@@ -204,18 +202,7 @@ export default function EnvelopeIntro({ onComplete }: EnvelopeIntroProps) {
           >
             دییە و کاردۆ
           </h2>
-          <p
-            className="text-xs sm:text-sm text-charcoal-light font-medium"
-            style={{ fontFamily: "var(--font-doran)" }}
-          >
-            ٩ی تەممووزی ٢٠٢٦
-          </p>
-          <p
-            className="text-[10px] sm:text-xs text-charcoal-light/70 mt-0.5 mb-1.5"
-            style={{ fontFamily: "var(--font-doran)" }}
-          >
-            سلێمانی
-          </p>
+
 
           {/* Action Button inside the card */}
           {isOpen && (

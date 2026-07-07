@@ -46,13 +46,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: radial-gradient(
-    ellipse at 50% 40%,
-    #fef9f0 0%,
-    #f5ead6 40%,
-    #e8d5a3 70%,
-    #c9a84c33 100%
-  );
+  background-image: url('/envelope-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   overflow: hidden;
 }
 
