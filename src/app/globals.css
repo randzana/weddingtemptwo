@@ -46,7 +46,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('/envelope-bg.png');
+  background-image: url('/envelope-bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
