@@ -162,7 +162,7 @@ export default function EnvelopeIntro({ onComplete }: EnvelopeIntroProps) {
           <br />
           <br />
           <br />
-          بانگهێشت کراون
+          بانگهێشنامە
         </p>
         <h1
           className="text-4xl sm:text-5xl md:text-6xl font-semibold leading-tight"

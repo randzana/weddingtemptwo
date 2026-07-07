@@ -86,10 +86,18 @@ export default function Footer() {
         </p>
 
         <p
-          className="text-xs text-charcoal-light/40 mt-6 tracking-wide"
+          className="text-xs text-charcoal-light/50 mt-6 tracking-wide"
           style={{ fontFamily: "var(--font-doran)" }}
         >
-          بە خۆشەویستییەوە ♥ دروستکراوە بۆ دییە و کاردۆ
+          دروستکراوە لە لایەن{" "}
+          <a
+            href="https://www.instagram.com/randvision.tech/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gold-dark transition-colors duration-300 underline underline-offset-4 font-semibold"
+          >
+            Randvision
+          </a>
         </p>
 
         {/* Floating hearts decoration */}
